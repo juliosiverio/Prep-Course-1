@@ -121,7 +121,7 @@ describe('esEntero(num)', function() {
     });
 });
 
-describe.only('fizzBuzz(num)', function() {
+describe('fizzBuzz(num)', function() {
     it('should return fizz if divisible by 3', function() {
         expect(fizzBuzz(9)).toBe('fizz');
     });
