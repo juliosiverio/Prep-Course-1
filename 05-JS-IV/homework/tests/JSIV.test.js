@@ -117,7 +117,7 @@ describe('tienePropiedad(object, property)', function() {
     });
 });
 
-describe.only('verificarPassword(user, password)', function() {
+describe('verificarPassword(user, password)', function() {
     it('should return true if passwords match', function() {
         const user = {
             password: 'Me encanta JS!',
